@@ -1,4 +1,19 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
 
+.maindiv {/* style to be applied to all elements in the tags with the maindiv class*/ 
+    background-color:white;
+    color:black;
+    width:500px;
+    padding:20px;
+    border-radius:25px;
+    position:absolute;
+    top:50%;
+    left:50%;
+	transform:translate(-50%,-50%)
+}
+.innerdiv { padding-left:75px}/* style to be applied to all elements in the tags with the maindiv class for alignment perpuse*/
 
+label { width:120px;float:left}/* alignment of the input boxes*/
+
+.yellowcolor{background-color:yellow}/* coloring the bacground of the text inside the result of the compute function*/
